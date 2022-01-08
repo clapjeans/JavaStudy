@@ -1,0 +1,44 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in); // 입력
+		String word = scan.next(); // 입력값을 Str word변수에저장
+		String[] array_words = new String[word.length()]; // 입력받은 문자열의길이만큼에 배열을 생성
+
+		array_words = word.split(""); // 문자열을 한글자씩 분리후 배열에담아
+
+		for (int i = 0; i < word.length(); i++)
+			System.out.printf("'%s'\n",array_words[i]); // 출력
+
+	}
+}
+
+1074
+
+import java.util.Scanner;
+
+public class codeup1073 {
+
+	public static void main(String[] args) {
+
+				Scanner scan = new Scanner(System.in); // 입력
+int a = scan.nextInt();
+			
+				
+				
+		while(true){
+			
+			
+			if(a==0) {
+				break;
+			}
+					System.out.println(a--); /// 프린트에도 a-- 적용 가능 while boolean 타입에만 안에 이프문 중첩가능 
+			
+		}
+			
+		}
+
+
+		
+	}
