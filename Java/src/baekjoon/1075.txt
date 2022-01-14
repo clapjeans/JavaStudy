@@ -1,0 +1,35 @@
+1075
+
+import java.util.Scanner;
+
+public class codeup1073 {
+
+	public static void main(String[] args) {
+
+				Scanner scan = new Scanner(System.in); // 입력
+int a = scan.nextInt();
+			
+				
+				
+		while(true){
+			///a--
+			//System.out.println(a);
+			///System.out.println(a--);
+위에 코드는 a를 감소 시킨 다음에 감소된 값을 다시 a변수에 넣고 출력이 되는거고
+아래 코드는 출력문이 실행된 다음에 a를 감소시키는 연산이 실행되고 감소된 값을 a에 대입하기 때문에 5q부터 감사 
+			
+			
+			if(a==0) {
+			
+				break;
+			}
+					
+			
+		}
+			
+		}
+
+
+		
+	}
+	
